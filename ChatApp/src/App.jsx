@@ -8,7 +8,7 @@ function App() {
   if(!localStorage.getItem('username')){
     return <LoginForm/>
   }
-  return (    
+  return (  
     <ChatEngine
         height='100vh'
         projectID='702d4a3b-309e-4853-ba64-189943d4eb5c'
